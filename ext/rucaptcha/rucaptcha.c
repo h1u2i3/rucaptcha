@@ -163,7 +163,7 @@ void captcha(unsigned char im[70*200], unsigned char l[8], int length, int i_lin
 
   int x;
   for(x=0;x<length;x++){
-    l[x]%=25;
+    l[x]%=9;
   }
   for(x=length;x<8;x++){
     l[length]=0;
